@@ -1,0 +1,96 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8dc; 
+    color: #4b3b1b; 
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  header {
+    background-color: #f5e342; 
+    color: #fff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('img/queijo2.png'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .logo {
+    height: 100px;
+    margin-top: auto;
+  }
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    padding: 2rem;
+    
+  }
+  
+  h2, h3 {
+    color: #7c5e10;
+  }
+  
+  .produto {
+    background-color: #fff3b0;
+    border: 2px solid #e0c050;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .produto strong {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #a66f00;
+  }
+  
+
+  input[type="submit"],
+  button {
+    background-color: #f5b041;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    background-color: #e39b2c;
+  }
+
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav a {
+      margin: 0.5rem 0 0 0;
+    }
+  }
+  
